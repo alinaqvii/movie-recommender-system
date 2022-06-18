@@ -1,0 +1,36 @@
+Types of recommender system
+1. Content Based
+2. Collaborative Filtering Based
+Data -> Prepocessing -> model -> website -> deploy
+
+New Dataset
+-movieid -title - tags
+
+Vectorization techniques
+- bag of words
+- tf idf
+- word to vec
+
+we will use bag of words technique
+
+first we will apply stemming(to reduce the same words) than perform vectorization
+- euclidean distance(tip to tip distance)
+- cosine distance(which is related to angle)
+
+we will will use cosine distance
+In a high dimentional data euclidean distance is not a good measure
+
+In pycharm we will create newapp.py file
+- We will import streamlit
+
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=fcad13928ddfab9eb98be62830242296&language=en-US
+
+procfile
+.gitignore
+setup.sh
+pip freeze > requirements.txt
+
+
+then we will login to heroku
+
+Install Heroku CLI
